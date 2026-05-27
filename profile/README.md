@@ -32,6 +32,4 @@ For inquiries, please reach out at [contact@stux.cloud](mailto:contact@stux.clou
 
 Thank you for visiting our profile! Together, we can make a significant impact in the tech community.
 
----
-
 *Stux.Cloud is part of the [Stux.Group](https://github.com/StuxGroup) Brand of Companies.*
