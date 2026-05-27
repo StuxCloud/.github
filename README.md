@@ -56,4 +56,4 @@ This project is open source and available for use and modification.
 
 Made by [Stux.Cloud](https://github.com/StuxCloud)
 
----
+*Stux.Cloud is part of the [Stux.Group](https://github.com/StuxGroup) Brand of Companies.*
