@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media.stux.cloud/global/logo.png" width="200" alt="Stux.Cloud Logo">
+  <img src="https://media.stux.cloud/global/logo.png" height="100" alt="Stux.Cloud Logo">
 </p>
 
 ## Welcome to the Stux.Cloud Official GitHub!
