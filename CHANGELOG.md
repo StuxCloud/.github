@@ -2,6 +2,11 @@
 
 All notable changes to Stux.Cloud's `.github` repository are documented here.
 
+## v1.0.3
+
+### Changed
+- `README.md` and `profile/README.md`'s footer/brand-attribution block updated to the new two-line format (Built & Maintained by Stux.Cloud, Hosted by Stuxedo / Stux.Cloud is a part of the Stux.Group brand of businesses), replacing the older single-line disclaimer and, in `README.md`, the redundant separate "Made by Stux.Cloud" line
+
 ## v1.0.2
 
 ### Added
