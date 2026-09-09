@@ -42,7 +42,7 @@ By participating in any Stux.Cloud project, you agree to uphold our community st
 
 ## Questions
 
-If you have any questions, feel free to reach out at [contact@stux.cloud](mailto:contact@stux.cloud) or open a discussion in the relevant repository.
+If you have any questions, feel free to reach out at [hello@stux.cloud](mailto:hello@stux.cloud) or open a discussion in the relevant repository.
 
 ---
 

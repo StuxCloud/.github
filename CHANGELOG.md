@@ -2,6 +2,11 @@
 
 All notable changes to Stux.Cloud's `.github` repository are documented here.
 
+## v1.0.4
+
+### Changed
+- `CONTRIBUTING.md` and `profile/README.md`'s general contact address changed from `contact@stux.cloud` to `hello@stux.cloud`, matching the convention used across other Stux.Group brand repos
+
 ## v1.0.3
 
 ### Changed

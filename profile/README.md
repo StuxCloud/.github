@@ -26,7 +26,7 @@ Stux.Cloud aims to innovate and create lasting solutions for our clients. Join u
 
 ### Contact Us
 
-For inquiries, please reach out at [contact@stux.cloud](mailto:contact@stux.cloud). We'd love to hear from you!
+For inquiries, please reach out at [hello@stux.cloud](mailto:hello@stux.cloud). We'd love to hear from you!
 
 ### Our Activity
 
