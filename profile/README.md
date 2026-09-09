@@ -39,4 +39,4 @@ For inquiries, please reach out at [contact@stux.cloud](mailto:contact@stux.clou
 Thank you for visiting our profile! Together, we can make a significant impact in the tech community.
 
 *Built & Maintained by <img src="https://github.com/StuxCloud.png" height="14" alt="Stux.Cloud" valign="middle"> [Stux.Cloud](https://github.com/StuxCloud), Hosted by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).    
-Stux.Cloud is a part of the <img src="https://media.stux.group/global/icon.png" height="14" alt="Stux.Group" valign="middle"> Stux.Group brand of businesses.*
+Stux.Cloud is a part of the <img src="https://global.media.stux.group/global/icon.png" height="14" alt="Stux.Group" valign="middle"> Stux.Group brand of businesses.*
