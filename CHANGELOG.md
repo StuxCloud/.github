@@ -2,6 +2,11 @@
 
 All notable changes to Stux.Cloud's `.github` repository are documented here.
 
+## v1.0.6
+
+### Fixed
+- `README.md` and `profile/README.md`'s own Stux.Cloud header logo (separate from the Stux.Group brand icon already fixed in v1.0.5) still pointed at the old `media.stux.cloud/global/logo.png` host — corrected to `https://global.media.stux.cloud/logo.png`
+
 ## v1.0.5
 
 ### Fixed
