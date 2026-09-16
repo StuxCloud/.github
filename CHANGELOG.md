@@ -2,6 +2,11 @@
 
 All notable changes to Stux.Cloud's `.github` repository are documented here.
 
+## v1.0.7
+
+### Added
+- Stux.Cloud's first slogan, "Powering everything, quietly & securely!", added to `README.md` and `profile/README.md`. `profile/README.md`'s placeholder tagline previously read "Powered by Stuxedo" — backwards, since Stuxedo is a Stux.Cloud service, not the other way around.
+
 ## v1.0.6
 
 ### Fixed

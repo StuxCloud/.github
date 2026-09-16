@@ -4,6 +4,8 @@
 
 # Stux.Cloud GitHub Configuration
 
+### *Powering everything, quietly & securely!*
+
 The central repository for Stux.Cloud's GitHub organization configuration and profile settings.
 
 ## Overview

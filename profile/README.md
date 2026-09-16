@@ -4,7 +4,7 @@
 
 ## Welcome to the Stux.Cloud Official GitHub!
 
-### *Powered by Stuxedo*
+### *Powering everything, quietly & securely!*
 
 We are dedicated to delivering exceptional services and solutions. Here's how you can connect with us and support our mission!
 
