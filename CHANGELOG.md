@@ -2,6 +2,11 @@
 
 All notable changes to Stux.Cloud's `.github` repository are documented here.
 
+## v1.0.8
+
+### Added
+- `profile/README.md` gained the "Our Services" table (Stuxedo) and a `legal@stux.cloud` contact line, matching the fuller template already used by Stux.Group's own profile.
+
 ## v1.0.7
 
 ### Added

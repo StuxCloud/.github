@@ -18,15 +18,22 @@ We are dedicated to delivering exceptional services and solutions. Here's how yo
 
 Stux.Cloud aims to innovate and create lasting solutions for our clients. Join us on this exciting journey!
 
+### Our Services
+
+| Service | What it is |
+|---|---|
+| 🖥️ [Stuxedo](https://stuxedo.com) | Hosting and cloud services — dedicated servers, VPS, and web hosting. |
+
 ### Get Involved
 
-1. **Explore our projects**: Check out our repository to see what we're working on.
+1. **Explore our services**: See the table above, or check out our repositories to see what we're working on.
 2. **Follow us on social media**: Stay updated on our latest news and updates.
 3. **Join our community**: Contribute to discussions, suggest improvements, and collaborate with us!
 
 ### Contact Us
 
-For inquiries, please reach out at [hello@stux.cloud](mailto:hello@stux.cloud). We'd love to hear from you!
+For inquiries, please reach out at [hello@stux.cloud](mailto:hello@stux.cloud). We'd love to hear from you!  
+For legal, privacy, or copyright matters, contact [legal@stux.cloud](mailto:legal@stux.cloud) instead.
 
 ### Our Activity
 
