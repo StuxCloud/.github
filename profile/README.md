@@ -34,7 +34,7 @@ Stux.Cloud aims to innovate and create lasting solutions for our clients. Join u
 | 🚀 [Instance Page](https://github.com/StuxCloud/instancepage) | A landing page template shown for a Stux.Cloud instance. |
 | 🛠️ [Maintenance Page](https://github.com/StuxCloud/maintenancepage) | A maintenance holding page template. |
 | ⏳ [Coming Soon Page](https://github.com/StuxCloud/soonpage) | A coming-soon landing page template. |
-| ↪️ [GitHub Pages Redirect](https://github.com/StuxCloud/stuxcloud.github.io) | Sends stuxcloud.github.io to [stux.cloud](https://stux.cloud). |
+| ↪️ [GitHub Pages Redirect](https://github.com/StuxCloud/stuxcloud.github.io) | Sends [stuxcloud.github.io](https://stuxcloud.github.io) to this GitHub organization. |
 | 🗄️ Archived designs | Earlier versions kept online as snapshots: [Region Page v2](https://github.com/StuxCloud/regionpage-v2), [Instance Page v2](https://github.com/StuxCloud/instancepage-v2) and [v1](https://github.com/StuxCloud/instancepage-v1), [Maintenance Page v2](https://github.com/StuxCloud/maintenancepage-v2), [Coming Soon Page v2](https://github.com/StuxCloud/soonpage-v2). |
 
 ### Get Involved
