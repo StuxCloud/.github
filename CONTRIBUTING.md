@@ -44,12 +44,6 @@ By participating in any Stux.Cloud project, you agree to uphold our community st
 
 If you have any questions, feel free to reach out at [hello@stux.cloud](mailto:hello@stux.cloud) or open a discussion in the relevant repository.
 
----
-
-We appreciate every contribution, no matter how small. Thank you for helping make Stux.Cloud better!
-
-*Stux.Cloud is part of the [Stux.Group](https://github.com/StuxGroup) Brand of Companies.*
-
 ## Versioning
 
 This project uses [Date Versioning](https://datevers.ing). To release:
@@ -58,3 +52,9 @@ This project uses [Date Versioning](https://datevers.ing). To release:
 2. Set `VERSION.md` to the same bare version (no `v`): today's **UTC** date as `YY.MM.DD`, or `YY.MM.DD-1`, `-2`… for later releases the same UTC day. Never a future date. Use UTC, not local time: just after midnight in the UK it is still the previous day in UTC.
 3. Run `bash tests/version.sh`.
 4. Run `./commit.sh` (or `commit.bat` on Windows). It checks the version, commits and tags `vYY.MM.DD`, and never pushes.
+
+---
+
+We appreciate every contribution, no matter how small. Thank you for helping make Stux.Cloud better!
+
+*Stux.Cloud is a part of the [Stux.Group](https://github.com/StuxGroup) brand of businesses.*

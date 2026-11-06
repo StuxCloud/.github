@@ -36,4 +36,5 @@ if errorlevel 1 (
     echo Tag v%VERSION% already exists - skipping.
 )
 
-echo Push with: git push origin main --tags
+REM Push just this tag: GitHub starts no workflows when more than three tags are pushed at once.
+echo Push with: git push origin main v%VERSION%
