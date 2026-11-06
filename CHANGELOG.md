@@ -4,6 +4,13 @@ All notable changes to Stux.Cloud's `.github` repository are documented here.
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.06
+
+### Added
+
+- **Status** in the "Our Services" table of `profile/README.md`, linking to the new [status.stux.cloud](https://status.stux.cloud)
+- A **Service Status** section in `profile/README.md` with a live status badge and a status table for every Stux.Cloud site (group, status, uptime and response time), kept up to date hourly by the new `.github/workflows/status.yml` using GitHup's `readme` mode and the data in `StuxCloud/Status`
+
 ## v26.10.23
 
 ### Added

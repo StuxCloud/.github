@@ -23,6 +23,16 @@ Stux.Cloud aims to innovate and create lasting solutions for our clients. Join u
 | Service | What it is |
 |---|---|
 | 🖥️ [Stuxedo](https://stuxedo.com) | Hosting and cloud services — dedicated servers, VPS, and web hosting. |
+| 🟢 [Status](https://status.stux.cloud) | Live status of Stux.Cloud's websites and pages. |
+
+### Service Status
+
+[![Stux.Cloud status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FStuxCloud%2FStatus%2Fmain%2Fdata%2Fsummary.json&query=%24.status&label=status&style=for-the-badge)](https://status.stux.cloud)
+
+See [status.stux.cloud](https://status.stux.cloud) for every site's live status and uptime history. The table below is refreshed hourly by [GitHup](https://githup.stux.group).
+
+<!-- githup:start -->
+<!-- githup:end -->
 
 ### Get Involved
 
