@@ -1,0 +1,18 @@
+# Checks every push to main and test, and every pull request.
+name: CI
+
+on:
+  push:
+    branches: [main, test]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check VERSION.md and CHANGELOG.md
+        run: bash tests/version.sh

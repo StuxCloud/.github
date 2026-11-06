@@ -16,6 +16,7 @@ The central repository for Stux.Cloud's GitHub organization: its public profile 
 | `CONTRIBUTING.md` | Contributing guidelines, which GitHub uses for any Stux.Cloud repository that has none of its own |
 | `.github/workflows/status.yml` | Refreshes the profile's **Service Status** table hourly with [GitHup](https://githup.stux.group)'s `readme` mode, from the data in [StuxCloud/Status](https://github.com/StuxCloud/Status) ([status.stux.cloud](https://status.stux.cloud)) |
 | `.github/workflows/generateMetrics.yml` | Builds the profile's activity image daily into the `metrics` branch (needs the `METRICS_TOKEN` secret) |
+| `.github/workflows/ci.yml` | Checks `VERSION.md` and the changelog on every push to `main` and `test` and on every pull request |
 | `commit.sh` / `commit.bat` | Commit and tag a release, using the version in `VERSION.md` |
 | `tests/version.sh` | Checks `VERSION.md` and the changelog |
 
@@ -32,6 +33,8 @@ We welcome contributions! Please refer to our [Contributing Guidelines](CONTRIBU
 ## Versioning
 
 This project uses [Date Versioning](https://datevers.ing): each release is numbered by its UTC release date as `YY.MM.DD` (for example `26.10.23`), with `-1`, `-2`… for later releases the same day. See [CHANGELOG.md](CHANGELOG.md) for what changed in each release.
+
+Work happens on `test` (or a branch off it), never on `main`. Changes reach `main` only through a pull request from `test`; the release commit and tag are made on `test` and go live when the pull request is merged.
 
 ## License
 
