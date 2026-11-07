@@ -64,6 +64,14 @@ See [status.stux.cloud](https://status.stux.cloud) for every site's live status 
 | Regions | [Stux.Cloud France Region](https://fr.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 493 ms |
 | Regions | [Stux.Cloud United States Region](https://us.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 214 ms |
 | Regions | [Stux.Cloud Canada Region](https://ca.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 215 ms |
+| Regions | [Stux.Cloud EMEA Region](https://emea.stux.cloud/) | No data | n/a | n/a | n/a | n/a |
+| Regions | [Stux.Cloud Europe Region](https://eu.stux.cloud/) | No data | n/a | n/a | n/a | n/a |
+| Regions | [Stux.Cloud AMER Region](https://amer.stux.cloud/) | No data | n/a | n/a | n/a | n/a |
+| Regions | [Stux.Cloud APAC Region](https://apac.stux.cloud/) | No data | n/a | n/a | n/a | n/a |
+| Regions | [Stux.Cloud Australia Region](https://au.stux.cloud/) | No data | n/a | n/a | n/a | n/a |
+| Regions | [Stux.Cloud Japan Region](https://jp.stux.cloud/) | No data | n/a | n/a | n/a | n/a |
+| Regions | [Stux.Cloud Singapore Region](https://sg.stux.cloud/) | No data | n/a | n/a | n/a | n/a |
+| Regions | [Stux.Cloud India Region](https://in.stux.cloud/) | No data | n/a | n/a | n/a | n/a |
 | Pages | [Stux.Cloud Region Page](https://regionpage.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 120 ms |
 | Pages | [Stux.Cloud Instance Page](https://instancepage.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 117 ms |
 | Pages | [Stux.Cloud Coming Soon Page](https://soonpage.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 120 ms |
