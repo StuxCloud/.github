@@ -4,6 +4,25 @@ All notable changes to Stux.Cloud's `.github` repository are documented here.
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.06-1
+
+### Added
+
+- An **Our Projects** table in `profile/README.md` listing every public Stux.Cloud repository: Stux.Cloud Status, the Region, Instance, Maintenance and Coming Soon Pages, the GitHub Pages Redirect, and the archived designs (Region Page v2, Instance Page v2 and v1, Maintenance Page v2, Coming Soon Page v2)
+- **Regions** in the "Our Services" table, linking the region page and the region websites
+- `.gitattributes`, so text files are checked out with LF line endings (CRLF for `.bat`) on every machine
+- A `test` branch. Work happens there, and changes reach `main` only through a pull request from `test` that needs CI to pass and is reviewed and merged by Leo. Release commits and tags are made on `test`
+- `.github/workflows/ci.yml`, which checks `VERSION.md` and the changelog on every push to `main` and `test` and on every pull request
+
+### Changed
+
+- The logos and icons in `profile/README.md`, `README.md` and the footers follow GitHub's light or dark theme, using each brand's `logo-light`/`logo-dark` and `icon-light`/`icon-dark` files. The Stuxedo icon comes from Stuxedo's media CDN instead of its GitHub avatar
+- Stux.Cloud Status moved from "Our Services" to "Our Projects", and "Get Involved" now sits right after the projects
+- `README.md` describes what's actually in this repository (the profile, the status and metrics workflows, the release scripts) instead of a generic list of template folders and files it doesn't have
+- `commit.sh` and `commit.bat` suggest pushing just the new tag, since GitHub starts no workflows when more than three tags are pushed at once
+- `CONTRIBUTING.md`'s closing note moved to the end, after the Versioning section
+- The README's Versioning section and a new **Branches** section in `CONTRIBUTING.md` describe the `test` branch, and `commit.sh`/`commit.bat` suggest pushing to `test`
+
 ## v26.11.06
 
 ### Added

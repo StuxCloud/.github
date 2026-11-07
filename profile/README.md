@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://global.media.stux.cloud/logo.png" height="100" alt="Stux.Cloud Logo">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.cloud/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.cloud/logo-dark.png"><img src="https://global.media.stux.cloud/logo-dark.png" height="100" alt="Stux.Cloud Logo"></picture>
 </p>
 
 ## Welcome to the Stux.Cloud Official GitHub!
@@ -22,8 +22,26 @@ Stux.Cloud aims to innovate and create lasting solutions for our clients. Join u
 
 | Service | What it is |
 |---|---|
-| 🖥️ [Stuxedo](https://stuxedo.com) | Hosting and cloud services — dedicated servers, VPS, and web hosting. |
-| 🟢 [Status](https://status.stux.cloud) | Live status of Stux.Cloud's websites and pages. |
+| 🖥️ [Stuxedo](https://stuxedo.com) | Hosting and cloud services: dedicated servers, VPS and web hosting. |
+| 🌍 [Regions](https://regionpage.stux.cloud) | Stux.Cloud's server regions, each with its own website (such as [uk.stux.cloud](https://uk.stux.cloud)) and live status for every server. |
+
+### Our Projects
+
+| Project | What it is |
+|---|---|
+| 💓 [Stux.Cloud Status](https://github.com/StuxCloud/Status) | [status.stux.cloud](https://status.stux.cloud): live status of Stux.Cloud's websites and pages, checked every 5 minutes. |
+| 🌍 [Region Page](https://github.com/StuxCloud/regionpage) | [regionpage.stux.cloud](https://regionpage.stux.cloud): the server regions, with live status for each server. |
+| 🚀 [Instance Page](https://github.com/StuxCloud/instancepage) | A landing page template shown for a Stux.Cloud instance. |
+| 🛠️ [Maintenance Page](https://github.com/StuxCloud/maintenancepage) | A maintenance holding page template. |
+| ⏳ [Coming Soon Page](https://github.com/StuxCloud/soonpage) | A coming-soon landing page template. |
+| ↪️ [GitHub Pages Redirect](https://github.com/StuxCloud/stuxcloud.github.io) | Sends [stuxcloud.github.io](https://stuxcloud.github.io) to this GitHub organization. |
+| 🗄️ Archived designs | Earlier versions kept online as snapshots: [Region Page v2](https://github.com/StuxCloud/regionpage-v2), [Instance Page v2](https://github.com/StuxCloud/instancepage-v2) and [v1](https://github.com/StuxCloud/instancepage-v1), [Maintenance Page v2](https://github.com/StuxCloud/maintenancepage-v2), [Coming Soon Page v2](https://github.com/StuxCloud/soonpage-v2). |
+
+### Get Involved
+
+1. **Explore our projects**: See the tables above, or check out our repositories to see what we're working on.
+2. **Follow us on social media**: Stay updated on our latest news and updates.
+3. **Join our community**: Contribute to discussions, suggest improvements, and collaborate with us!
 
 ### Service Status
 
@@ -58,12 +76,6 @@ See [status.stux.cloud](https://status.stux.cloud) for every site's live status 
 | Archived pages | [Stux.Cloud Maintenance Page v2](https://maintenancepage-v2.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 127 ms |
 <!-- githup:end -->
 
-### Get Involved
-
-1. **Explore our services**: See the table above, or check out our repositories to see what we're working on.
-2. **Follow us on social media**: Stay updated on our latest news and updates.
-3. **Join our community**: Contribute to discussions, suggest improvements, and collaborate with us!
-
 ### Contact Us
 
 For inquiries, please reach out at [hello@stux.cloud](mailto:hello@stux.cloud). We'd love to hear from you!  
@@ -79,5 +91,5 @@ For legal, privacy, or copyright matters, contact [legal@stux.cloud](mailto:lega
 
 Thank you for visiting our profile! Together, we can make a significant impact in the tech community.
 
-*Built & Maintained by <img src="https://github.com/StuxCloud.png" height="14" alt="Stux.Cloud" valign="middle"> [Stux.Cloud](https://github.com/StuxCloud), Hosted by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).    
-Stux.Cloud is a part of the <img src="https://global.media.stux.group/icon.png" height="14" alt="Stux.Group" valign="middle"> Stux.Group brand of businesses.*
+*Built & Maintained by <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.cloud/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.cloud/icon-dark.png"><img src="https://global.media.stux.cloud/icon-dark.png" height="14" alt="Stux.Cloud" valign="middle"></picture> [Stux.Cloud](https://github.com/StuxCloud), Hosted by <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stuxedo.com/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stuxedo.com/icon-dark.png"><img src="https://global.media.stuxedo.com/icon-dark.png" height="14" alt="Stuxedo" valign="middle"></picture> [Stuxedo](https://stuxedo.com).  
+Stux.Cloud is a part of the <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.group/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.group/icon-dark.png"><img src="https://global.media.stux.group/icon-dark.png" height="14" alt="Stux.Group" valign="middle"></picture> Stux.Group brand of businesses.*

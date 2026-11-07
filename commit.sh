@@ -42,4 +42,5 @@ else
     echo "Tagged v${VERSION}."
 fi
 
-echo "Push with: git push origin main --tags"
+# Push just this tag: GitHub starts no workflows when more than three tags are pushed at once.
+echo "Push with: git push origin test v${VERSION}"

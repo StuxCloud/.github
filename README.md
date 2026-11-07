@@ -1,50 +1,30 @@
 <p align="center">
-  <img src="https://global.media.stux.cloud/logo.png" height="100" alt="Stux.Cloud Logo">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.cloud/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.cloud/logo-dark.png"><img src="https://global.media.stux.cloud/logo-dark.png" height="100" alt="Stux.Cloud Logo"></picture>
 </p>
 
 # Stux.Cloud GitHub Configuration
 
 ### *Powering everything, quietly & securely!*
 
-The central repository for Stux.Cloud's GitHub organization configuration and profile settings.
+The central repository for Stux.Cloud's GitHub organization: its public profile and the org-wide defaults.
 
-## Overview
+## What's in it
 
-This repository contains the organization-wide configuration files for the Stux.Cloud GitHub profile, including community health files, workflow templates, and organizational settings. This repository helps maintain consistency and best practices across all Stux.Cloud projects.
+| Path | What it does |
+| ---- | ------------ |
+| `profile/README.md` | The public org profile shown at [github.com/StuxCloud](https://github.com/StuxCloud): services, projects, the live service status table, contact details and activity |
+| `CONTRIBUTING.md` | Contributing guidelines, which GitHub uses for any Stux.Cloud repository that has none of its own |
+| `.github/workflows/status.yml` | Refreshes the profile's **Service Status** table hourly with [GitHup](https://githup.stux.group)'s `readme` mode, from the data in [StuxCloud/Status](https://github.com/StuxCloud/Status) ([status.stux.cloud](https://status.stux.cloud)) |
+| `.github/workflows/generateMetrics.yml` | Builds the profile's activity image daily into the `metrics` branch (needs the `METRICS_TOKEN` secret) |
+| `.github/workflows/ci.yml` | Checks `VERSION.md` and the changelog on every push to `main` and `test` and on every pull request |
+| `commit.sh` / `commit.bat` | Commit and tag a release, using the version in `VERSION.md` |
+| `tests/version.sh` | Checks `VERSION.md` and the changelog |
 
-## Features
+## How it works
 
-- 📋 Centralized GitHub organization configuration
-- 🔄 Community health files for all repositories
-- 🛠️ Reusable workflow templates
-- 📝 Issue and pull request templates
-- 🎯 Contributing guidelines and code of conduct
-- 🤝 Contributing best practices
+GitHub shows `profile/README.md` on the organization's page, and uses the community health files here (such as `CONTRIBUTING.md`) for any public Stux.Cloud repository that doesn't have its own.
 
-## What's Included
-
-This repository typically contains:
-
-- **Workflows** - Reusable GitHub Actions workflows
-- **Templates** - Issue and pull request templates
-- **Community Files** - Contributing guidelines, code of conduct, and security policies
-- **Organization Settings** - Default settings applied to the organization
-
-## How It Works
-
-GitHub automatically applies files from this `.github` repository to all public repositories in the organization (when specific repositories don't have their own versions). This ensures consistent standards and expectations across all projects.
-
-## File Structure
-
-```
-.github/
-├── workflows/          # Reusable GitHub Actions workflows
-├── ISSUE_TEMPLATE/     # Issue templates
-├── PULL_REQUEST_TEMPLATE/
-├── CONTRIBUTING.md     # Contribution guidelines
-├── CODE_OF_CONDUCT.md  # Community code of conduct
-└── SECURITY.md         # Security policy
-```
+The status table in the profile sits between the `<!-- githup:start -->` and `<!-- githup:end -->` markers and is written by the workflow. Don't edit inside them.
 
 ## Contributing
 
@@ -54,11 +34,13 @@ We welcome contributions! Please refer to our [Contributing Guidelines](CONTRIBU
 
 This project uses [Date Versioning](https://datevers.ing): each release is numbered by its UTC release date as `YY.MM.DD` (for example `26.10.23`), with `-1`, `-2`… for later releases the same day. See [CHANGELOG.md](CHANGELOG.md) for what changed in each release.
 
+Work happens on `test` (or a branch off it), never on `main`. Changes reach `main` only through a pull request from `test`; the release commit and tag are made on `test` and go live when the pull request is merged.
+
 ## License
 
 This project is open source and available for use and modification.
 
 ---
 
-*Built & Maintained by <img src="https://github.com/StuxCloud.png" height="14" alt="Stux.Cloud" valign="middle"> [Stux.Cloud](https://github.com/StuxCloud), Hosted by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).    
-Stux.Cloud is a part of the <img src="https://global.media.stux.group/icon.png" height="14" alt="Stux.Group" valign="middle"> Stux.Group brand of businesses.*
+*Built & Maintained by <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.cloud/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.cloud/icon-dark.png"><img src="https://global.media.stux.cloud/icon-dark.png" height="14" alt="Stux.Cloud" valign="middle"></picture> [Stux.Cloud](https://github.com/StuxCloud), Hosted by <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stuxedo.com/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stuxedo.com/icon-dark.png"><img src="https://global.media.stuxedo.com/icon-dark.png" height="14" alt="Stuxedo" valign="middle"></picture> [Stuxedo](https://stuxedo.com).  
+Stux.Cloud is a part of the <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.group/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.group/icon-dark.png"><img src="https://global.media.stux.group/icon-dark.png" height="14" alt="Stux.Group" valign="middle"></picture> Stux.Group brand of businesses.*
