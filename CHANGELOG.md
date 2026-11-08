@@ -4,6 +4,12 @@ All notable changes to Stux.Cloud's `.github` repository are documented here.
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.08
+
+### Changed
+
+- The profile's Stux.Cloud Status entry says its sites are **checked regularly** instead of every 5 minutes, as GitHub runs the status checks best-effort and often less often than scheduled
+
 ## v26.11.07
 
 ### Added

@@ -29,7 +29,7 @@ Stux.Cloud aims to innovate and create lasting solutions for our clients. Join u
 
 | Project | What it is |
 |---|---|
-| 💓 [Stux.Cloud Status](https://github.com/StuxCloud/Status) | [status.stux.cloud](https://status.stux.cloud): live status of Stux.Cloud's websites and pages, checked every 5 minutes. |
+| 💓 [Stux.Cloud Status](https://github.com/StuxCloud/Status) | [status.stux.cloud](https://status.stux.cloud): live status of Stux.Cloud's websites and pages, checked regularly. |
 | 🌍 [Region Page](https://github.com/StuxCloud/regionpage) | [regionpage.stux.cloud](https://regionpage.stux.cloud): the server regions, with live status for each server. |
 | 🚀 [Instance Page](https://github.com/StuxCloud/instancepage) | A landing page template shown for a Stux.Cloud instance. |
 | 🛠️ [Maintenance Page](https://github.com/StuxCloud/maintenancepage) | A maintenance holding page template. |
