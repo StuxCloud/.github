@@ -44,12 +44,13 @@ By participating in any Stux.Cloud project, you agree to uphold our community st
 
 If you have any questions, feel free to reach out at [hello@stux.cloud](mailto:hello@stux.cloud) or open a discussion in the relevant repository.
 
-## Branches
+## Branches and going live
 
-- Work on `test`, or on a feature branch off it. Never push to `main`
-- Changes reach `main` only through a pull request from `test` into `main`, which needs CI to pass and is reviewed and merged by Leo
-- The **Service status** workflow commits the profile's status table straight to `main` as `github-actions[bot]` every hour. Start new work from an up-to-date `test` (`git merge origin/main` into it) so the pull request stays clean
-- Merging into `main` updates the organization profile; release commits and tags are made on `test` (`git push origin test --tags`) and go live when the pull request is merged
+- **`main` is what's live.** Nothing is pushed to it directly: it only changes when a pull request from `staging` is merged. Merging into `main` updates the organization profile.
+- **`staging` is the last check before live.** It only changes when a pull request from `test` is merged. There's no staging deployment, so this is where CI and a final review happen.
+- **Work happens on `test`**, or on a feature branch off `test` that's merged back into it. Releases are made on `test` too; `commit.sh` / `commit.bat` refuse to run on `staging` or `main`.
+- **Going live:** push `test` with its tag (`git push origin test --tags`), open a pull request into staging (`gh pr create --base staging --head test`), then once it's merged open one from staging into main (`gh pr create --base main --head staging`). Each needs CI to pass and is reviewed and merged by Leo.
+- **The bot writes to `main`.** The **Service status** workflow commits the profile's status table straight to `main` as `github-actions[bot]` every hour. Start new work from an up-to-date `test` (`git merge origin/main` into it) so the pull requests stay clean.
 
 ## Versioning
 
@@ -59,7 +60,7 @@ This project uses [Date Versioning](https://datevers.ing). To release:
 2. Set `VERSION.md` to the same bare version (no `v`): today's **UTC** date as `YY.MM.DD`, or `YY.MM.DD-1`, `-2`… for later releases the same UTC day. Never a future date. Use UTC, not local time: just after midnight in the UK it is still the previous day in UTC.
 3. Run `bash tests/version.sh`.
 4. Run `./commit.sh` (or `commit.bat` on Windows). It checks the version, commits and tags `vYY.MM.DD`, and never pushes.
-5. Push `test` with its tag (`git push origin test --tags`) and open a pull request from `test` into `main`.
+5. Push `test` with its tag (`git push origin test --tags`) and open a pull request into `staging` (`gh pr create --base staging --head test`). Once it is merged, open one from `staging` into `main` (`gh pr create --base main --head staging`).
 
 ---
 

@@ -1,9 +1,9 @@
-# Checks every push to main and test, and every pull request.
+# Checks every push to main, staging and test, and every pull request.
 name: CI
 
 on:
   push:
-    branches: [main, test]
+    branches: [main, staging, test]
   pull_request:
 
 permissions:
