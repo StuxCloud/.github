@@ -56,32 +56,32 @@ See [status.stux.cloud](https://status.stux.cloud) for every site's live status 
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stux.Cloud | [Stux.Cloud](https://stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 344 ms |
+| Stux.Cloud | [Stux.Cloud](https://stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 388 ms |
 | Stux.Cloud | [Stux.Cloud Media CDN](https://global.media.stux.cloud/icon.png) | Up | 100.00% | 100.00% | 100.00% | 195 ms |
-| Regions | [Stux.Cloud United Kingdom Region](https://uk.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 241 ms |
-| Regions | [Stux.Cloud Spain Region](https://es.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 475 ms |
-| Regions | [Stux.Cloud Finland Region](https://fi.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 547 ms |
-| Regions | [Stux.Cloud France Region](https://fr.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 508 ms |
-| Regions | [Stux.Cloud United States Region](https://us.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 253 ms |
-| Regions | [Stux.Cloud Canada Region](https://ca.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 239 ms |
-| Regions | [Stux.Cloud EMEA Region](https://emea.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 276 ms |
-| Regions | [Stux.Cloud Europe Region](https://eu.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 273 ms |
-| Regions | [Stux.Cloud AMER Region](https://amer.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 292 ms |
-| Regions | [Stux.Cloud APAC Region](https://apac.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 288 ms |
-| Regions | [Stux.Cloud Australia Region](https://au.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 301 ms |
-| Regions | [Stux.Cloud Japan Region](https://jp.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 277 ms |
-| Regions | [Stux.Cloud Singapore Region](https://sg.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 268 ms |
-| Regions | [Stux.Cloud India Region](https://in.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 268 ms |
-| Pages | [Stux.Cloud Region Page](https://regionpage.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 121 ms |
-| Pages | [Stux.Cloud Instance Page](https://instancepage.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 161 ms |
-| Pages | [Stux.Cloud Coming Soon Page](https://soonpage.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 123 ms |
-| Pages | [Stux.Cloud Maintenance Page](https://maintenancepage.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 148 ms |
-| Pages | [Stux.Cloud GitHub Pages Redirect](https://stuxcloud.github.io/) | Up | 100.00% | 100.00% | 100.00% | 125 ms |
-| Archived pages | [Stux.Cloud Region Page v2](https://regionpage-v2.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 116 ms |
-| Archived pages | [Stux.Cloud Instance Page v2](https://instancepage-v2.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 123 ms |
-| Archived pages | [Stux.Cloud Instance Page v1](https://instancepage-v1.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 123 ms |
-| Archived pages | [Stux.Cloud Coming Soon Page v2](https://soonpage-v2.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 129 ms |
-| Archived pages | [Stux.Cloud Maintenance Page v2](https://maintenancepage-v2.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 127 ms |
+| Regions | [Stux.Cloud United Kingdom Region](https://uk.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 249 ms |
+| Regions | [Stux.Cloud Spain Region](https://es.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 496 ms |
+| Regions | [Stux.Cloud Finland Region](https://fi.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 574 ms |
+| Regions | [Stux.Cloud France Region](https://fr.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 530 ms |
+| Regions | [Stux.Cloud United States Region](https://us.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 276 ms |
+| Regions | [Stux.Cloud Canada Region](https://ca.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 259 ms |
+| Regions | [Stux.Cloud EMEA Region](https://emea.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 384 ms |
+| Regions | [Stux.Cloud Europe Region](https://eu.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 366 ms |
+| Regions | [Stux.Cloud AMER Region](https://amer.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 329 ms |
+| Regions | [Stux.Cloud APAC Region](https://apac.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 364 ms |
+| Regions | [Stux.Cloud Australia Region](https://au.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 364 ms |
+| Regions | [Stux.Cloud Japan Region](https://jp.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 363 ms |
+| Regions | [Stux.Cloud Singapore Region](https://sg.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 331 ms |
+| Regions | [Stux.Cloud India Region](https://in.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 286 ms |
+| Pages | [Stux.Cloud Region Page](https://regionpage.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 146 ms |
+| Pages | [Stux.Cloud Instance Page](https://instancepage.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 200 ms |
+| Pages | [Stux.Cloud Coming Soon Page](https://soonpage.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 153 ms |
+| Pages | [Stux.Cloud Maintenance Page](https://maintenancepage.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 154 ms |
+| Pages | [Stux.Cloud GitHub Pages Redirect](https://stuxcloud.github.io/) | Up | 100.00% | 100.00% | 100.00% | 129 ms |
+| Archived pages | [Stux.Cloud Region Page v2](https://regionpage-v2.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 158 ms |
+| Archived pages | [Stux.Cloud Instance Page v2](https://instancepage-v2.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 154 ms |
+| Archived pages | [Stux.Cloud Instance Page v1](https://instancepage-v1.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 143 ms |
+| Archived pages | [Stux.Cloud Coming Soon Page v2](https://soonpage-v2.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 151 ms |
+| Archived pages | [Stux.Cloud Maintenance Page v2](https://maintenancepage-v2.stux.cloud/) | Up | 100.00% | 100.00% | 100.00% | 161 ms |
 <!-- githup:end -->
 
 ### Contact Us
